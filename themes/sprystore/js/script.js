@@ -29,7 +29,7 @@
                 $hiddenCleanButton =false;
             }
         }
-        // Open/Close Modal Windo 30% Off
+        // Open/Close Modal Window 30% Off
         const openModalButton = document.querySelector('.details');
         const closeModalButton = document.querySelector('.modal__close');
         const modal = document.querySelector('#exampleModal');
