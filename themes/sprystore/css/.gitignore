@@ -1,5 +1,5 @@
 *
 !.gitignore
-!block.scss
+!blocks.scss
 !main.scss
 !mywoocommerce.scss 
