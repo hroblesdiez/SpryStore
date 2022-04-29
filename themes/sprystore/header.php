@@ -175,6 +175,13 @@
 
 					</div> <?php
 							break;
+						case is_singular('post'); ?>
+					<div class="container-fluid banner">
+						<div class="banner-title-container">
+							<?php echo '<h1 class="banner-title">Blog</h1>'; ?>
+						</div><!-- .entry-header -->
+					</div> <?php
+							break;
 
 						case is_home(): ?>
 					<div class="container-fluid banner">

@@ -10,7 +10,7 @@
 
 ?>
 
-<article class="col-12 col-md-6 px-4 py-3" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article class="col-12 col-sm-8 col-md-6 px-4 py-3 mx-auto" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<div class="entry-header__img">
 			<?php sprystore_post_thumbnail(); ?>
@@ -20,35 +20,19 @@
 			<span class="date"><?php echo get_the_date('d/m/Y'); ?></span>
 		</div><!-- .entry-meta -->
 		<h2 class="entry-title">
-			<a href="<?php the_permalink(); ?>" rel="bookmark"><?php echo get_the_title(); ?></a>
+			<?php if (is_home()) { ?>
+				<a href="<?php the_permalink(); ?>" rel="bookmark"><?php } ?> <?php echo get_the_title(); ?></a>
 		</h2>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">
 
 		<?php
-		echo get_the_excerpt();
-		// the_content(
-		// 	sprintf(
-		// 		wp_kses(
-		// 			/* translators: %s: Name of current post. Only visible to screen readers */
-		// 			__('Continue reading<span class="screen-reader-text"> "%s"</span>', 'sprystore'),
-		// 			array(
-		// 				'span' => array(
-		// 					'class' => array(),
-		// 				),
-		// 			)
-		// 		),
-		// 		wp_kses_post(get_the_title())
-		// 	)
-		// );
-
-		// wp_link_pages(
-		// 	array(
-		// 		'before' => '<div class="page-links">' . esc_html__('Pages:', 'sprystore'),
-		// 		'after'  => '</div>',
-		// 	)
-		// );
+		if (is_home()) {
+			echo get_the_excerpt();
+		} else {
+			echo get_the_content();
+		}
 		?>
 	</div><!-- .entry-content -->
 
