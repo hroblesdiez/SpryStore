@@ -1,0 +1,36 @@
+2022-04-22T09:08:03+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-content\themes\sprystore\include\woocommerce_settings.php:34
+Stack trace:
+#0 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-content\themes\sprystore\woocommerce\single-product.php(35): sprystore_get_breadcrumb()
+#1 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Humber...')
+#2 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Humber...')
+#3 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\index.php(17): require('C:\\Users\\Humber...')
+#4 {main}
+  thrown in C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-content\themes\sprystore\include\woocommerce_settings.php on line 34
+
+2022-04-22T09:08:32+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-content\themes\sprystore\include\woocommerce_settings.php:34
+Stack trace:
+#0 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-content\themes\sprystore\woocommerce\single-product.php(35): sprystore_get_breadcrumb()
+#1 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Humber...')
+#2 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Humber...')
+#3 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\index.php(17): require('C:\\Users\\Humber...')
+#4 {main}
+  thrown in C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-content\themes\sprystore\include\woocommerce_settings.php on line 34
+
+2022-04-22T09:08:36+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-content\themes\sprystore\include\woocommerce_settings.php:34
+Stack trace:
+#0 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-content\themes\sprystore\woocommerce\single-product.php(35): sprystore_get_breadcrumb()
+#1 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Humber...')
+#2 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Humber...')
+#3 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\index.php(17): require('C:\\Users\\Humber...')
+#4 {main}
+  thrown in C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-content\themes\sprystore\include\woocommerce_settings.php on line 34
+
+2022-04-22T09:08:49+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-content\themes\sprystore\include\woocommerce_settings.php:34
+Stack trace:
+#0 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-content\themes\sprystore\woocommerce\single-product.php(35): sprystore_get_breadcrumb()
+#1 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Humber...')
+#2 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Humber...')
+#3 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\index.php(17): require('C:\\Users\\Humber...')
+#4 {main}
+  thrown in C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-content\themes\sprystore\include\woocommerce_settings.php on line 34
+

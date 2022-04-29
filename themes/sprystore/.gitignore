@@ -1,0 +1,20 @@
+#Igonre all the css files in the folder css
+css/*.css 
+
+css/bootstrap
+gutenberg-dev
+inc
+languages
+node_modules
+.prettierignore
+index.php.txt
+LICENSE
+main.scss.txt
+phpcs.xml.dist
+logo
+.prettierignore
+shortcode_teams.txt
+upgrade
+uploads
+plugins
+composer.json

@@ -1,0 +1,14 @@
+2022-04-23T07:04:55+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function sprystore_change_step_quantity_add_to_cart(), 1 passed in C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-includes\class-wp-hook.php on line 309 and exactly 2 expected in C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-content\themes\sprystore\include\woocommerce_settings.php:249
+Stack trace:
+#0 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-includes\class-wp-hook.php(309): sprystore_change_step_quantity_add_to_cart(Array)
+#1 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1781): apply_filters('woocommerce_qua...', Array, Object(WC_Product_Simple))
+#3 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-content\theme in C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-content\themes\sprystore\include\woocommerce_settings.php on line 249
+
+2022-04-23T07:05:56+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function sprystore_change_step_quantity_add_to_cart(), 2 passed in C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-includes\class-wp-hook.php on line 307 and exactly 3 expected in C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-content\themes\sprystore\include\woocommerce_settings.php:249
+Stack trace:
+#0 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-includes\class-wp-hook.php(307): sprystore_change_step_quantity_add_to_cart(Array, Object(WC_Product_Simple))
+#1 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1781): apply_filters('woocommerce_qua...', Array, Object(WC_Product_Simple))
+#3 C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\ in C:\Users\Humberto\Documents\DESARROLLO_WEB\PRACTICA\sprystore\app\public\wp-content\themes\sprystore\include\woocommerce_settings.php on line 249
+
